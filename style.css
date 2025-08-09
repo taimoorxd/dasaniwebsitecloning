@@ -1,0 +1,346 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-color: #eeeeee !important;
+}
+
+ul {
+    display: flex;
+}
+
+header li {
+    padding-left: 20px;
+    list-style:none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    padding: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+
+.dasanilogo img {
+    width: 220px;
+    height: auto;
+}
+
+.dasanilogo {
+    text-align: center;
+}
+
+
+/* start styling body part */
+
+.box1 {
+    background-color: #0082C1;
+    height: 600px;
+    width: 1300px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.mainbox {
+    padding-top: 50px;
+}
+
+.box1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+/* SECTION 2 CSS HERE */
+
+.box1p {
+    padding: 40px;
+}
+
+.box1p h1 {
+    text-align: center;
+}
+
+.box1container {
+    display: flex;
+}
+
+.box11 {
+    padding-left: 220px;
+}
+
+.box11 img {
+    background-color: white;
+    border-radius: 20px;
+    height: 508px;
+    width: 400px;
+}
+
+.box22 {
+    padding: 70px;
+}
+
+.box1container {
+  padding-bottom: 20px;
+}
+
+.box1p {
+  font-weight: bold;
+}
+
+.nutrition-section {
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  right: 19px;
+}
+
+.nutrition-section:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.nutrition-title {
+  color: #2a6496;
+  position: relative;
+  padding-right: 30px;
+}
+
+.nutrition-title::after {
+  content: "▼";
+  position: absolute;
+  right: 0;
+  transition: transform 0.3s ease;
+}
+
+.nutrition-section.active .nutrition-title::after {
+  transform: rotate(180deg);
+}
+
+.hidden {
+  display: none;
+}
+
+.ingredients {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed #ccc;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+.thiscontainer1 {
+  padding-top: 20px;
+}
+
+.followcontainer {
+  background-color: black;
+  margin: 0 auto;
+  width: 1100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: first baseline;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thiscontainer1 {
+  padding-bottom: 130px;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footertop {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+
+.footerlogo img {
+  padding-left: 68px;
+}
+
+.footerlocation  {
+  padding-right: 127px;
+}
+
+.footerlocation h3 {
+    padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 165px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer a {
+  color: white;
+}
+
+
+.footerbottom {
+  display: flex;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+
+.footerbottom a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.footerbottom li {
+  position: relative;
+  left: 10px;
+  color: #D5D5D5;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+}
+
+.aboutus1 {
+  padding-left: 20px;
+}
+
+.helpus1 {
+  padding-left: 60px;
+}
+
+.termofuse {
+  padding-left: 60px;
+}
+
+hr {
+  width: 1152px;
+  position: relative;
+  left: 70px;
+  height: 3px;
+  color: white;
+  /* background-color: white; */
+}
+
+.copyright {
+  text-align: end;
+  padding-bottom: 20px;
+}
+
+.copyright p {
+  padding-top:  20px;
+  padding-right: 124px;
+}
+
+
+
+
+
+
+
+
+/* Responsive CSS */
+
+
+@media only screen and (max-width: 768px) {
+  .box1 {
+    width: 315px;
+    height: 429px;
+    align-items: center;
+  }
+
+  .box1 img {
+    width: 187px;
+    height: 314px;
+  }
+
+  header li {
+    display: none;
+  }
+
+
+  header ul img {
+    position: relative;
+    right: 54px;
+  }
+
+
+  .box1container {
+    display: block;
+  }
+
+  .box11 {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .box11 img {
+    background-color: white;
+    border-radius: 20px;
+    height: 400px;
+    width: 322px;
+  }
+
+  .box22 h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .box22 p {
+    text-align: center;
+  }
+
+  .box1p h1 {
+  font-weight: bold;
+  font-size: 51px;
+  }
+
+  .followcontainer {
+    width: 331px;
+    text-align: center;
+    display: block;
+  }
+
+  .followcontainer h1 {
+    font-weight: bold;
+  }
+}
