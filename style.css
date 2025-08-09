@@ -343,4 +343,48 @@ hr {
   .followcontainer h1 {
     font-weight: bold;
   }
+
+  .footertop {
+    display: block;
+  }
+
+  .footerlogo img {
+    padding-left: 16px;
+  }
+
+  .footerlocation {
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+
+  footer hr {
+    width: 345px;
+    position: relative;
+    left: 15px;
+  }
+
+  .footerbottom {
+    display: block;    
+  }
+
+  .aboutus1 {
+    text-align: center;
+  }
+
+  .helpus1 {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .termofuse {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .copyright p {
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 14px;
+  }
 }
